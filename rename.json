@@ -1,0 +1,10 @@
+{
+  "control/application.php": "control/{%=misName%}.php",
+  "template/application/application.php": "template/{%=misName%}/{%= misName %}.php",
+   "static/application/directive/application_xxxx.html":"static/{%=misName%}/directive/{%=misName%}_{%=directive%}.html",
+   "static/application/directive/application_xxxx.js":"static/{%=misName%}/directive/{%=misName%}_{%=directive%}.js",
+   "static/application/resource/application_resource.js":"static/{%=misName%}/resource/{%=misName%}_resource.js",
+   "static/application/views/page/page_controller.js":"static/{%=misName%}/views/{%=pageName%}/{%=pageName%}_controller.js",
+   "static/application/views/page/page.html":"static/{%=misName%}/views/{%=pageName%}/{%=pageName%}.html"
+}
+
